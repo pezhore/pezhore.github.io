@@ -2,7 +2,7 @@
 layout: single
 title:  "Thoughts on Ghost"
 date:   2014-05-28
-categories: "site news"
+categories: ['Site News']
 tags: ghost
 ---
 I've been using Ghost for this blog for about a month (and the ghostium theme for a little less than a month). It works quite well for a lightweight blog, but there have been a few issues that I've come upon.

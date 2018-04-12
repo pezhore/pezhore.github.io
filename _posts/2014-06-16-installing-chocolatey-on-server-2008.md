@@ -2,7 +2,7 @@
 layout: single
 title:  "Installing Chocolatey on Server 2008 R2 Core"
 date:   2014-06-16
-categories: "Home Lab"
+categories: ['Home Lab']
 tags: archived powershell
 ---
 

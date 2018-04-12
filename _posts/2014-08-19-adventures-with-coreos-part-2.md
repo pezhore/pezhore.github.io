@@ -2,7 +2,7 @@
 layout: single
 title:  "Adventures with CoreOS - Part 2"
 date:   2014-08-19
-categories: "Home Lab"
+categories: ['Home Lab']
 tags: archived coreos
 ---
 In the previous article, I created three CoreOS VMs and got them to talk to each other using etcd. In this article, we'll be going over cloud-config/config-drive and getting an etcd cluster that automatically starts and discovers new nodes using the freely available discovery.etcd.io service.

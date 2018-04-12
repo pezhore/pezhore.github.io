@@ -2,7 +2,7 @@
 layout: single
 title:  "Standardizing coding environments with Dropbox"
 date:   2014-06-03
-categories: SourceControl archived
+categories: ['Source Control', 'archived']
 ---
 
 In a previous post, I showed how I rely on Dropbox for synchronizing a few Windows application data folders. I also use it for a rather ghetto source code replication/backup solution.

@@ -2,7 +2,7 @@
 layout: single
 title:  "Configuring NTP with PowerCLI"
 date:   2014-09-02
-categories: "Home Lab"
+categories: ['Home Lab']
 tags: archived powershell powercli
 ---
 # Configuring NTP with PowerCLI

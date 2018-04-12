@@ -2,8 +2,8 @@
 layout: single
 title:  "Gitlab, Ubuntu 14.04, and LDAP"
 date:   2014-06-10
-categories: "Home Lab"
-tags: archived 'Source Control'
+categories: ['Home Lab']
+tags: ['archived', 'Source Control']
 ---
 Time to install source control at home (mostly to organize my home lab's puppet manifests). I started with my typical Ubuntu 14.04 server install and followed the directions on Gitlab's [docs](https://gitlab.com/gitlab-org/gitlab-ce/blob/6-9-stable/doc/install/installation.md).
 

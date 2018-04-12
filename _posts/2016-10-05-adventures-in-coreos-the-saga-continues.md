@@ -2,7 +2,8 @@
 layout: single
 title:  "Adventures in CoreOS: The Saga Continues"
 date:   2016-10-05
-categories: "CoreOs"
+categories: Automation
+tags: coreos
 ---
 
 I've worked with [CoresOs](http://blog.briankmarsh.com/adventures-with-coreos/) in the [past](http://blog.briankmarsh.com/adventures-with-coreos-part-2/), but thought that two years was enough of a gap before I attempted to deal with it again.

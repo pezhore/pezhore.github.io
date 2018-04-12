@@ -2,7 +2,7 @@
 layout: single
 title:  "Adventures with CoreOS"
 date:   2014-08-11
-categories: "Home Lab"
+categories: ['Home Lab']
 tags: archived coreos
 ---
 I now have three CoreOS boxes setup in my home lab - following the steps here. But just having three CoreOS boxes doing nothing is boring, so I've decided to try and accomplish the following:

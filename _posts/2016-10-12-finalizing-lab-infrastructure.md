@@ -2,8 +2,8 @@
 layout: single
 title:  "Finalizing the lab infrastructure"
 date:   2016-10-12
-categories: "Home Lab"
-tags: archived 'home lab'
+categories: ['Home Lab']
+tags: ['archived', 'home lab']
 ---
 In order for my home lab setup to be finalized, I needed to do two things:
 

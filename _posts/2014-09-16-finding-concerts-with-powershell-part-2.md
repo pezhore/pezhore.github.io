@@ -2,12 +2,12 @@
 layout: single
 title:  "Finding concerts with PowerShell - Part 2"
 date:   2014-09-16
-categories: "API Development"
+categories: ['API Development']
 tags: archived api powershell
 ---
 I had a few minutes to get back to that [PowerShell code]({% post_url 2014-09-12-finding-concerts-with-powershell %}) that found upcoming concerts in St. Louis, and I added a bit. Skip ahead for the code if you most - the most notable feature upgrade includes finding the closest place that the target band is playing and displaying that show's City/Region and drive time.
 
-## Geolocation / Google Distance API
+# Geolocation / Google Distance API
 
 Finding bands who were playing shows in a given city was pretty easy, but what if a band I want to see is playing in a suburb of my target city? Or what about if the band is playing one town over and I would totally be willing to drive the 30 minutes to see the show?
 
@@ -24,13 +24,13 @@ $result = Invoke-RestMethod "https://maps.googleapis.com/maps/api/distancematrix
 
 The resulting JSON includes various helpful bits of information like distance in KM: `$result.rows[0].elements[0].distance.value` and driving duration: `$result.rows[0].elements[0].duration.text`. Once I had each venue's distance in KM, a simple comparison enabled me to find the shortest distance, and record the appropriate information (Venue, City/Region, Driving Duration, etc).
 
-## Final Tweaks
+# Final Tweaks
 
 I added proper help syntax then saved the cmdlet as get-UpcomingConcerts.ps1. Other additions included a progress bar that details which band is currently being examined and a sorted output: first bands that are performing in the target city, then bands that are outside of the city. Various comments, verbose/debug statements, and other formatting fixes went into the finished product found below.
 
 If you wish to use this code yourself, sign up for an API key from Google and enable the Google Distance Matrix API, replacing the value of $key with your API key. You may adjust your target band list in code, or provide it as an array to the -targetBands parameter.
 
-## Get-UpcomingShows.ps1
+# Get-UpcomingShows.ps1
 
 ```language-powershell
 <#

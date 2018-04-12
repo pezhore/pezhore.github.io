@@ -2,7 +2,7 @@
 layout: single
 title:  "Setting round robin policy via PowerCLI"
 date:   2014-10-06
-categories: "VMware"
+categories: VMware
 tags: archived powercli
 ---
 Another quick PowerCLI script for today. We recently discovered that multiple hosts had datastores configured with fixed path that should have been configured as round robin.
@@ -14,7 +14,7 @@ After first verifying that a cluster did not contain any RDMs, this script goes 
 $cluster = "cluster01"
 
 # Check to see if this cluster has any RDMs
-if ((get-cluster $cluster | Get-VM | Get-HardDisk -DiskType "RawPhysical","RawVirtual" | Select Parent,Name,DiskType,ScsiCanonicalName,DeviceName | measure).count -ne 0) {  
+if ((get-cluster $cluster | Get-VM | Get-HardDisk -DiskType "RawPhysical","RawVirtual" | Select Parent,Name,DiskType,ScsiCanonicalName,DeviceName | measure).count -ne 0) {
     Write-Host -ForegroundColor Red "There are RDMs in this cluster. Skipping!"
 } else {
 

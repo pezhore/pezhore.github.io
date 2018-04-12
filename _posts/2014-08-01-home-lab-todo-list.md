@@ -2,7 +2,7 @@
 layout: single
 title:  "Home Lab Todo List"
 date:   2014-08-01
-categories: "Home Lab"
+categories: ['Home Lab']
 tags: archived
 ---
 Quick list for home lab:

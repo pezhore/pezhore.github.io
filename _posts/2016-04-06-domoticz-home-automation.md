@@ -3,7 +3,7 @@ layout: single
 title:  "Domoticz and home automation"
 date:   2016-04-06
 categories: Automation
-tags: archived 'raspberry pi' automation
+tags: ['archived', 'raspberry pi', 'automation']
 ---
 When I moved into my new townhome, one of the first purchases I made was a 2nd generation Nest thermostat. It's been working fine - the last software update improved auto-away to the point where it's now useful - but the sole thermometer is in the entryway on the first floor. This causes issues as the majority of the living space is either the bedrooms upstairs, or the living/tv room in the basement. As of now, Nest doesn't offer remote temperature nodes, so I have been looking at what other home automation tools I could use to make my smart thermostat even smarter.
 

@@ -2,7 +2,7 @@
 layout: single
 title:  "The lab lives again!"
 date:   2014-07-28
-categories: "Home Lab"
+categories: ['Home Lab']
 tags: archived
 ---
 After moving from Rochester, NY to Missouri, I'm happy to report everything has made it to Missouri intact and in working condition! Some quick lessons for moving equipment half way across the country:

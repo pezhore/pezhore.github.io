@@ -2,7 +2,7 @@
 layout: single
 title:  "PostgreSQL + PowerShell"
 date:   2014-07-01
-categories: "Automation"
+categories: Automation
 tags: archived powershell postgresql
 ---
 

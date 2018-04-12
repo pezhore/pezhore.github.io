@@ -2,7 +2,7 @@
 layout: single
 title:  "Finding concerts with PowerShell and BandsInTown"
 date:   2014-09-12
-categories: "API Development"
+categories: ['API Development']
 tags: archived api powershell
 ---
 The move to St. Louis was a success - nothing was broken in transit, and I've settled in pretty well. Now the game begins again! Let's find suitable St. Louis alternatives to my favorite Rochester things. One area that is sorely lacking is upcoming concert schedules. My go-to source in Rochester was the [WBER Concert Schedule][1]. Unfortunately, it doesn't appear that there is an easily parsable alternative in St. Louis.

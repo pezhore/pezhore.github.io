@@ -2,7 +2,7 @@
 layout: single
 title:  "Micro Update"
 date:   2014-07-01
-categories: "Home Lab"
+categories: ['Home Lab']
 tags: archived
 ---
 I have been super busy over the past week and unable to do my usual somewhat extensive updates. So I give you the first (of hopefully not many) Micro Updates!

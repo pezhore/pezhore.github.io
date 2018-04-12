@@ -2,8 +2,8 @@
 layout: single
 title:  "Puppet and the Home Lab"
 date:   2014-06-10
-categories: "Home Lab"
-tags: puppet 'home lab' archived 'configuration management'
+categories: ['Home Lab']
+tags: ['puppet', 'home lab', 'archived', 'configuration management']
 ---
 
 I've decided to try my hand at managing my ever-growing lab environment using Puppet. Mostly because I'm curious to find use cases at work, but also because I'd like to expand my automation skill set. With that in mind, I'm opting to use Puppet Enterprise and keep my total managed devices to under 10 - allowing me to use the "free" Enterprise version.

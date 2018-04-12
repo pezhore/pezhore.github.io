@@ -2,7 +2,7 @@
 layout: single
 title:  "PowerCLI - configuring iSCSI from scratch"
 date:   2015-07-27
-categories: "Automation"
+categories: Automation
 tags: archived powercli
 ---
 I threw this together a while ago, it will help configure iSCSI on a VM host using PowerCLI. Note that once you do a find/replace to set your iSCSI network (e.g. 192.168.0.0/24 192.168.1.0/24), all you'll need to change is the $thisHost, $lastOctet, and $targets values before running.

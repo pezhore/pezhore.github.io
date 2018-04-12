@@ -2,7 +2,7 @@
 layout: single
 title:  "Moving, home lab status, and PowerShell reporting"
 date:   2015-09-08
-categories: HomeLab Automation
+categories: ['Home Lab', 'Automation']
 tags: archived powershell
 ---
 

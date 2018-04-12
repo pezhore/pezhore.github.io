@@ -2,7 +2,7 @@
 layout: single
 title:  "Quick Post: Pbis Open"
 date:   2014-11-12
-categories: "Home Lab"
+categories: ['Home Lab']
 tags: archived
 ---
 I use PowerBroker Identity Services [PBIS Open][1] to connect my home lab's Ubuntu servers to my lab domain. There's an issue where new domain users are not configured with bash as their default shell. After a user connects, you can manually edit their entry in `/etc/passwd`, but to set default shell for all new users, you may run the following snippet.

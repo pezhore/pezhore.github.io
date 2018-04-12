@@ -2,8 +2,8 @@
 layout: single
 title:  "Puppet & OpenSUSE"
 date:   2014-06-20
-categories: "Home Lab"
-tags: archived 'Source Control' 'configuration management'
+categories: ['Home Lab']
+tags: ['archived', 'Source Control', 'configuration management']
 ---
 I've been using the Zabbix Appliance to handle monitoring/graphing of my home lab's resources to much success, but after recently expanding my Puppet Enterprise setup I decided to try and manage Zabbix via puppet.
 

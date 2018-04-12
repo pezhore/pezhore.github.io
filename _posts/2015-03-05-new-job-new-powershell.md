@@ -2,7 +2,7 @@
 layout: single
 title:  "New job, new PowerShell"
 date:   2015-03-05
-categories: "Home Lab"
+categories: ['Home Lab']
 tags: archived PowerShell
 ---
 I've started a new job (thus the relative quiet lately), and one of the first tasks was to perform information gathering via PowerShell. Luckily, this is old hat. Doubly luckily, I have some coworkers that know a ton about PowerShell! Today I'm going to talk about custom objects.

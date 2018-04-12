@@ -2,8 +2,8 @@
 layout: single
 title:  "Ansible & VI Management"
 date:   2014-11-20
-categories: "Home Lab"
-tags: archived 'configuration management'
+categories: ['Home Lab']
+tags: ['archived', 'configuration management']
 ---
 I've done it with Puppet, and with Chef - but I thought I would give it a go with Ansible. VI management! Today I spent an hour brute forcing my way through ansible with one goal in mind: create a playbook that will get vim installed and configured with the plugins I use on a daily basis.
 
