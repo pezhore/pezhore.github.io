@@ -91,7 +91,7 @@ After configuring my data source, I was able to change the headers into somethin
 
 The final result can be seen here in a screengrab:
 
-![VMware Report](/images/webpage)
+![VMware Report](/images/webpage.png)
 
 ## What's Next
 
