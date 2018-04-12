@@ -13,17 +13,52 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Dev Meets Ops
-email: pezhore@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://devmeetsops.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: pezhore
-github_username:  pezhore
+locale                   : "en"
+title                    : "Dev Meets Ops"
+title_separator          : "|"
+name                     : "Brian Marsh"
+description              : ""
+url                      : "https://devmeetsops.com/"
+enforce_ssl              : "devmeetsops.com"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "pezhore/pezhore.github.io"
+teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : true # true, false (default)
+permalink                : /:categories/:title/
+words_per_minute         : 200
+baseurl                  : "" # the subpath of your site, e.g. /blog
 github: [metadata]
+
+# Author Settings
+author:
+  name             : "Brian Marsh"
+  avatar           : "/images/bio-photo.jpg"
+  bio              : ""
+  location         : "Middle America"
+  email            :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "pezhore"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : "briankmarsh"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          : "pezhore"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
 
 # Build settings
 markdown: kramdown
@@ -31,7 +66,10 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
+  - jekyll-archives
 
+paginate: 5
+paginate_path: /page:num/
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -43,3 +81,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+include: ["_pages"]
