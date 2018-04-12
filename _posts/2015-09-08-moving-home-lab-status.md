@@ -2,8 +2,8 @@
 layout: single
 title:  "Moving, home lab status, and PowerShell reporting"
 date:   2015-09-08
-categories: ['Home Lab', 'Automation']
-tags: archived powershell
+categories: ['Home Lab']
+tags: ['archived', 'powershell', 'home lab', 'automation']
 ---
 
 Wow, so a lot to cover today. I recently moved out of my parents basement and into my own townhome with the wife and dog! Unfortunately, that means that we're back to paying 100% of the utilities and I'm giving some strong consideration to changing my home lab from an always on to a only-when-I-need-it. I would leave my Synology on for storage/backups, but turn off the HP DL360s and possibly the Avaya switch. New hardware would need to be purchased for routing (currently pfSense is virtual).
