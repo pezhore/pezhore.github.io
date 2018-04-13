@@ -6,9 +6,9 @@ permalink: /about/
 date: 2018-04-12
 header:
   overlay_color: "#000"
-  overlay_filter: "0.22"
+  overlay_filter: "0.5"
   overlay_image: /images/skippingrocks.jpg
-excerpt: "While others may tend to treat work as a job, I try to learn and enjoy the challenge."
+excerpt: "There's too much cool stuff to just leave technology at work - Let's try to see what we can do on our own time."
 intro: 
   - excerpt: "# Welcome to my little corner of the internet!"
 feature_row2:
