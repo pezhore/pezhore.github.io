@@ -29,6 +29,13 @@ words_per_minute         : 200
 baseurl                  : "" # the subpath of your site, e.g. /blog
 github: [metadata]
 
+defaults:
+    - scope:
+        path: ""
+        type: posts
+      values:
+        author_profile: true
+        classes: wide
 # Author Settings
 author:
   name             : "Brian Marsh"

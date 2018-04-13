@@ -1,7 +1,5 @@
 ---
 layout: single
-author_profile: true
-classes: wide
 title:  "Adventures in CoreOS: The Saga Continues"
 date:   2016-10-05
 categories: Automation
