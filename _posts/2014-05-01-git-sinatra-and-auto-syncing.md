@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Git, Sinatra, and Auto-Syncing Soure Control"
+title:  "Git, Sinatra, and Auto-Syncing Source Control"
 date:   2014-05-01
 categories: ['Source Control']
 tag: archived
