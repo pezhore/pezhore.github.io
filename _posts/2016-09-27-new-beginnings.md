@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "The Beginning"
+title:  "New beginnings"
 date:   2016-09-27
 categories: ['Site News']
 ---
