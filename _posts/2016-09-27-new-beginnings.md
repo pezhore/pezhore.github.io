@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "New beginnings"
 date:   2016-09-27
 categories: ['Site News']

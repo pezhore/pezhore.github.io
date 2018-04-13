@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Standardizing coding environments with Dropbox"
 date:   2014-06-03
 categories: ['Source Control']

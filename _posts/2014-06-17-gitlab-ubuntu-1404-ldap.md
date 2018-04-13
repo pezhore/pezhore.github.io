@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Gitlab, Ubuntu 14.04, and LDAP"
 date:   2014-06-10
 categories: ['Home Lab']

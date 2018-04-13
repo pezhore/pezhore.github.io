@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Chef - Transitioning from Puppet"
 date:   2014-07-29
 categories: ['Home Lab']

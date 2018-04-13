@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Home Lab Todo List"
 date:   2014-08-01
 categories: ['Home Lab']

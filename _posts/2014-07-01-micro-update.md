@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Micro Update"
 date:   2014-07-01
 categories: ['Home Lab']

@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "The lab lives again!"
 date:   2014-07-28
 categories: ['Home Lab']

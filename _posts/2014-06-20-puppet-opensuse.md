@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Puppet & OpenSUSE"
 date:   2014-06-20
 categories: ['Home Lab']

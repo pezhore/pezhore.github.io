@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Domoticz and home automation"
 date:   2016-04-06
 categories: Automation

@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Finalizing the lab infrastructure"
 date:   2016-10-12
 categories: ['Home Lab']

@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Git, Sinatra, and Auto-Syncing Source Control"
 date:   2014-05-01
 categories: ['Source Control']

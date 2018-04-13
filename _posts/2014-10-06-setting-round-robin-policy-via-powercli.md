@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Setting round robin policy via PowerCLI"
 date:   2014-10-06
 categories: VMware

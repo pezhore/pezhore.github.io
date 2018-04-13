@@ -1,5 +1,9 @@
 ---
 layout: single
+author_profile: true
+classes: wide
+author_profile: true
+classes: wide
 title:  "Ansible & VI Management"
 date:   2014-11-20
 categories: ['Home Lab']

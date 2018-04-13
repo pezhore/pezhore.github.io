@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Finding concerts with PowerShell - Part 2"
 date:   2014-09-16
 categories: ['API Development']
@@ -15,12 +17,12 @@ I already have a full list of all the events/venues where each band is playing, 
 
 Integrating with Google's API was rather simple. I requested a new API key, then followed their documentation to craft an `Invoke-RESTMethod` call.
 
-```language-powershell
+{% highlight powershell %}
 $key = ""
 $origin = "St. Louis, MO"
 $destination = "Chicago, IL"
 $result = Invoke-RestMethod "https://maps.googleapis.com/maps/api/distancematrix/json?origins=$origin&destinations=$destination&sensor=false&key=$key"
-```
+{% endhighlight %}
 
 The resulting JSON includes various helpful bits of information like distance in KM: `$result.rows[0].elements[0].distance.value` and driving duration: `$result.rows[0].elements[0].duration.text`. Once I had each venue's distance in KM, a simple comparison enabled me to find the shortest distance, and record the appropriate information (Venue, City/Region, Driving Duration, etc).
 
@@ -32,7 +34,7 @@ If you wish to use this code yourself, sign up for an API key from Google and en
 
 # Get-UpcomingShows.ps1
 
-```language-powershell
+{% highlight powershell %}
 <#
     .SYNOPSIS
     Utilizes the BandsInTown API to search for a given band(s) in a given city, or
@@ -141,7 +143,6 @@ BEGIN {
 
     }
 
-
 }
 
 PROCESS {
@@ -235,7 +236,7 @@ END {
     Write-Output "Closest Shows"
     Write-Output $remoteShows
 }
-```
+{% endhighlight %}
 
 [1]: http://stackoverflow.com/questions/7120872/algorithm-to-calculate-nearest-location-based-on-longitude-latitude
 [2]: https://developers.google.com/maps/documentation/distancematrix/

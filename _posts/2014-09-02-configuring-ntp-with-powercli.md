@@ -1,17 +1,17 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Configuring NTP with PowerCLI"
 date:   2014-09-02
 categories: ['Home Lab']
 tags: archived powershell powercli
 ---
-# Configuring NTP with PowerCLI
-
 This is going to be another quick one. A new cluster was configured without any NTP settings. I threw this bit of code together to set our default NTP servers, open the firewall to allow for NTP traffic, and set the service to started/automatic.
 
 I cleaned it up a bit and you may find it below.
 
-```language-powershell
+{% highlight powershell %}
 [CmdletBinding()]
 param ($NTPServers,
         [Parameter(Mandatory=$true)]
@@ -49,4 +49,4 @@ END {
     # Last minute debugging (if necessary)
     Write-Debug "Anything Else?"
 }
-```
+{% endhighlight %}

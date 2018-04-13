@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Quick Post: Pbis Open"
 date:   2014-11-12
 categories: ['Home Lab']

@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Puppet and the Home Lab"
 date:   2014-06-10
 categories: ['Home Lab']

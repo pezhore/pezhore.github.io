@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Adventures with Raspberry Pi"
 date:   2015-07-27
 categories: Automation

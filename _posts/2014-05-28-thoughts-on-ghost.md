@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Thoughts on Ghost"
 date:   2014-05-28
 categories: ['Site News']

@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Moving, home lab status, and PowerShell reporting"
 date:   2015-09-08
 categories: ['Home Lab']
@@ -18,15 +20,14 @@ The bulk of this post will be surrounding "pretty" reporting. I rely heavily upo
 
 CSVs were the first (and most effortless) way of getting data out of PS, but frankly, they're kind of two dimensional. Let's get all the VMs in my homelab, and report on GuestOS/CPU/memory configuration.
 
-```language-powershell
+{% highlight powershell %}
 Connect-VIServer vcenter.pezlab.local
 $vms = Get-VM
-
 
 $report = $vms | select Name, GuestId, NumCPU, MemoryGB
 
 $report | Export-Csv c:\temp\report.csv -NoTypeInformation
-```
+{% endhighlight %}
 
 ![Sample CSV](/images/CSV-1.png)
 
@@ -67,7 +68,7 @@ I edited the default Visual Studio template content and inserted an `asp:GridVie
 
 After configuring my data source, I was able to change the headers into something more reasonable, change the column order, and add some general information.
 
-```language-html
+{% highlight html %}
 <%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
@@ -87,7 +88,7 @@ After configuring my data source, I was able to change the headers into somethin
     </asp:GridView>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TestwebConnectionString %>" SelectCommand="SELECT [GuestId], [MemoryGB], [Name], [NumCpu] FROM [vms]"></asp:SqlDataSource>
 </asp:Content>
-```
+{% endhighlight %}
 
 The final result can be seen here in a screengrab:
 

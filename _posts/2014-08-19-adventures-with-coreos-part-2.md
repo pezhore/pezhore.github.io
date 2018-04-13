@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Adventures with CoreOS - Part 2"
 date:   2014-08-19
 categories: ['Home Lab']

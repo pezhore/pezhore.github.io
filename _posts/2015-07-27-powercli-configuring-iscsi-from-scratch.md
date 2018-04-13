@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "PowerCLI - configuring iSCSI from scratch"
 date:   2015-07-27
 categories: Automation
@@ -9,7 +11,7 @@ I threw this together a while ago, it will help configure iSCSI on a VM host usi
 
 Requires magic from [Jonathan Medd's Blog][1] (for the Set-VMHostiSCSIBinding cmdlet).
 
-```language-powershell
+{% highlight powershell %}
 # This configures iSCSI from scratch!
 
 # Set the specific information for this host
@@ -51,6 +53,6 @@ $thisHost | Get-VMHostStorage -RescanAllHba
 
 # Just a little clean up, rename any default local datastores
 $thisHost | get-datastore datastore* | set-datastore -name "$($thisHost.name.Substring(0,$thisHost.Name.IndexOf(".")))_boot"
-```
+{% endhighlight %}
 
 [1]: http://www.jonathanmedd.net/2013/07/using-powercli-for-iscsi-vmkernel-port-binding.html

@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Installing Chocolatey on Server 2008 R2 Core"
 date:   2014-06-16
 categories: ['Home Lab']
@@ -32,16 +34,16 @@ After more Googling, I came upon a [stackoverflow](https://stackoverflow.com/que
 
 On the destination (myServer), I ran the following in an elevated PowerShell command prompt:
 
-```language-powershell
+{% highlight powershell %}
 Register-PSSessionConfiguration -Name DataNoLimits
 Set-PSSessionConfiguration -Name DataNoLimits -MaximumReceivedDataSizePerCommandMB 500 -MaximumReceivedObjectSizeMB 500
-```
+{% endhighlight %}
 
 On my sending computer, I just changed my $session variable assignment to reference the new PS Session config:
 
-```language-powershell
+{% highlight powershell %}
 $Session = New-PSSession -ComputerName myServer -ConfigurationName DataNoLimits
-```
+{% endhighlight %}
 
 The original Send-File command worked like a beauty and within ~30 seconds I had my .NET installer on my remote server. I was able to run the installer, and Chocolatey was installed successfully shortly thereafter.
 

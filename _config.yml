@@ -66,7 +66,8 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
-  - jekyll-archives
+  - jekyll-gist
+  - jekyll-paginate
 
 paginate: 5
 paginate_path: /page:num/
@@ -83,18 +84,9 @@ paginate_path: /page:num/
 #   - vendor/ruby/
 include: ["_pages"]
 category_archive:
-  type: jekyll-archives
+  type: liquid
   path: /categories/
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tags/
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+

@@ -1,5 +1,7 @@
 ---
 layout: single
+author_profile: true
+classes: wide
 title:  "Home Lab storage performance"
 date:   2014-08-15
 categories: ['Home Lab']
