@@ -8,7 +8,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /images/skippingrocks.jpg
-excerpt: "There's too much cool stuff to just leave technology at work - Let's try to see what we can do on our own time."
+excerpt: "Learning and experimenting shouldn't be limited to 9-5..."
 intro: 
   - excerpt: "# Welcome to my little corner of the internet!"
 feature_row2:
