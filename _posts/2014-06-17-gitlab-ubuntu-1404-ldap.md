@@ -72,7 +72,7 @@ I ran into some issues getting LDAPS working with my home domain. Enabling it is
 
 However, when trying to log in, I would get invalid credential messages. There didn't appear to be much by way of logs, so I started to look into how to troubleshoot LDAP errors. I opted to use LDP to see the result of my LDAPS connection attempt:
 
-![Gitlab Post Hook](/images/ldap.png)
+![Gitlab Post Hook](/images/posts/ldap.png)
 
 Lo and behold, there was an error:
 

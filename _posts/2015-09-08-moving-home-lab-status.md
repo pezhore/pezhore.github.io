@@ -29,7 +29,7 @@ $report = $vms | select Name, GuestId, NumCPU, MemoryGB
 $report | Export-Csv c:\temp\report.csv -NoTypeInformation
 {% endhighlight %}
 
-![Sample CSV](/images/CSV-1.png)
+![Sample CSV](/images/posts/CSV-1.png)
 
 CSVs don't offer any formatting, no auto-sizing of cells, sorting is a major PITA... and if you want to collect multiple reports in a single file? Not possible (goodbye single "State of VMware" file containing multiple reports on multiple different vCenters).
 
@@ -41,9 +41,9 @@ Most recently, I've been using [ImportExcel][2]. This PowerShell module leverage
 
 Let's try the same bit of code but exporting the `$report` variable with `Export-Excel`:
 
-`$report | Export-Excel -Path c:tempreport.xlsx -WorksheetName "VM Report" -BoldTopRow -AutoSize`
+`$report | Export-Excel -Path c:\tempreport.xlsx -WorksheetName "VM Report" -BoldTopRow -AutoSize`
 
-![Excel Output](/images/xlsx.png)
+![Excel Output](/images/posts/xlsx.png)
 
 This module (and others like it) work quite well, but Excel in general has some downsides:
 
@@ -60,11 +60,11 @@ For this self-hosted PoC, I installed [SQL Server 2014 Express][4] and created a
 
 `$report | Write-ObjectToSQL -Server localhostSQLEXPRESS -Database Testweb -TableName vms`
 
-![Data in SQL](/images/sql.png)
+![Data in SQL](/images/posts/sql.png)
 
 I edited the default Visual Studio template content and inserted an `asp:GridView` tag, then switched to design view to finish configuring the SQL endpoint.
 
-![Visual Studio GridView](/images/vsGridView.png)
+![Visual Studio GridView](/images/posts/vsGridView.png)
 
 After configuring my data source, I was able to change the headers into something more reasonable, change the column order, and add some general information.
 
@@ -92,7 +92,7 @@ After configuring my data source, I was able to change the headers into somethin
 
 The final result can be seen here in a screengrab:
 
-![VMware Report](/images/webpage.png)
+![VMware Report](/images/posts/webpage.png)
 
 ## What's Next
 

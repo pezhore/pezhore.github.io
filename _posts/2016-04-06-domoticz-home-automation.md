@@ -23,14 +23,14 @@ I stumbled upon [Domoticz][1] while researching open-source/inexpensive home aut
 
 Nest support is in its infancy - but I can at least see the current temperature/humidity readings, set Away Mode, and change the target temperature. The software itself has a decent web-based interface (that translates well to mobile).
 
-![Main Page](/images/domoticz1.png)
+![Main Page](/images/posts/domoticz1.png)
 
 Historical views are available for each sensor - something I'm interested in using to track the guest bedroom's ambient temperature this summer.
 
-![Historical View](/images/domoticz2.png)
+![Historical View](/images/posts/domoticz2.png)
 
 With the latest update, adjusting the thermostat finally works!
-![Changing the Temperature](/images/domoticz3.png)
+![Changing the Temperature](/images/posts/domoticz3.png)
 
 Other bonuses: Domoticz runs well on a Raspberry Pi (and even can directly utilize the GPIO ports), has a well documented [API][2]/[extensive wiki][3], and active [community forum][4]. I opted to use a spare Raspberry Pi 2 and the provided image.
 
@@ -48,7 +48,7 @@ Two things need to be configured in order for the temperature sensor to work: ad
 
 ## Domoticz Settings
 
-* Create a dummy switch (Setup > Hardware) ![Dummy Switch](/images/domoticz4.png)
+* Create a dummy switch (Setup > Hardware) ![Dummy Switch](/images/posts/domoticz4.png)
 * Create the associated sensor hardware when prompted - we want a temperature + humidity as sensor type (note the resulting IDX, this will be used in the script below).
 
 ## Sensor Script
@@ -85,7 +85,7 @@ Running the script manually should both update the Domoticz sensor and output to
 # Other things
 
 The "comfort" level is arbitrary at this point based exclusively on relative humidity - not dew point. as a result, you can have a situation like this:
-![Is it dry or comfortable?](/images/domoticz.png)
+![Is it dry or comfortable?](/images/posts/domoticz.png)
 
 How is 34% humidity comfortable, but 37% is dry? Also note that dew point is within ~1.5 degrees. This script could probably do with some calculations of dew point and humidity ranges to better calculate the comfort level.
 

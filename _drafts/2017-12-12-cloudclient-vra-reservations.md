@@ -7,7 +7,11 @@ tags: ['archived', 'PowerShell', 'VMware']
 ---
 What happens when you have ~500 VMs in vRealize Automation that need to have their reservations changed? You figure out a way to script that tedious process. (This will provide some background and more details on a recent [VMware Communities](https://code.vmware.com/forums/5098/vrealize-automation#577825) post.)
 
-I first started looking at what I was most familiar with - [PowervRA](https://github.com/jakkulabs/PowervRA) - a great community supported, PowerShell wrapper for the vRA API stack.
+I first started looking at what I was most familiar with - [PowervRA](https://github.com/jakkulabs/PowervRA) - a great community supported, PowerShell wrapper for the vRA API stack. Unfortunately, PowerVRA does not offer reservation manipulation - only reporting.
+
+[CloudClient](https://code.vmware.com/web/dp/tool/cloudclient/4.5.0) is a Java application wrapper for the vRA API. Bulk changing reservations is one use case, but several other uses exist in the documentaiton from that download site.
+
+
 
 The source gist can be found below
 

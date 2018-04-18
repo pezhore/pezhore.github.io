@@ -36,7 +36,7 @@ And running it:
 
 I use gitlab at work as an internal shared repository for various code projects. I chose gitlab because (a) it was pretty good looking, and (b) because it was free. Not great reasons, but it turns out I made a decent choice as gitlab easily handles post hooks. Below is an example taken from our internal Gitlab server.
 
-![Gitlab Post Hook]("/images/PostHook.png")
+![Gitlab Post Hook](/images/posts/PostHook.png)
 
 Git post hooks will send post web requests to specified URLs when the repository is updated.
 
