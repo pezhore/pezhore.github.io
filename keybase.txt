@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/pezhore
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://devmeetsops.com
+  * I am pezhore (https://keybase.io/pezhore) on keybase.
+  * I have a public key with fingerprint 2FF3 6582 9C22 8182 C352  C5E6 9385 92BE 8CA2 02E8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012026b3b7c8f93486c6c2850dd6beb64dd71a04e09d42eb7745608c48f560817f900a",
+      "fingerprint": "2ff365829c228182c352c5e6938592be8ca202e8",
+      "host": "keybase.io",
+      "key_id": "938592be8ca202e8",
+      "kid": "0101cff66f60dd9a66edb0eab7731ba8fd6f976cc9af57f97441357fb66e06de241a0a",
+      "uid": "11142e12278ef2c66a866b67cbe13c00",
+      "username": "pezhore"
+    },
+    "merkle_root": {
+      "ctime": 1525890566,
+      "hash_meta": "7f3850087d0cb730a9f756d0ad6cee69f2b7daae7a17509c58519e8092999cc7",
+      "seqno": 2565432
+    },
+    "revoke": {
+      "sig_ids": [
+        "926627219d7a7a6ac9b03fc9a5d9ab8c10230f0e8d4fbd16452a4d5959ae02170f"
+      ]
+    },
+    "service": {
+      "hostname": "devmeetsops.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1525890568,
+  "expire_in": 157680000,
+  "prev": "05301a3540217cdf3b973fe89b8f748a35e8fc5cc452d20c0e69eba47ce1655a",
+  "seqno": 38,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMLgAnicbVNraB1FGL151GpoY+urRZTStRSKIczM7ryuRC1ISQpSxT8+Um7n8U3u
+kty717ubm0dbSoQUiq2C1aBCApYWqRY1KBqFWkkDUoMPRC2FGNCCFvKjaNGq1OJs
+aBHE/TM7O+c73znn25lb3VJoazo8/sLHB480X2ianx0eLDx56f4bdwc6sSNBcXfQ
+D8sLDFhIs1J/bINigDBBhOlQcyOcDCPBDDNEUGQt06BZZC3HCkWApI0IaM4jypAw
+kXD5irmTCKmgI3BxtQ/qtXpczTwtcS5kVBBpCBFYEBNSYigwGQoqiQZhlO8LwheW
+kzSv8OK0SqEzTvw3vykty/sf/HXdCBvnGHPMS5WKMbAagfICQ6yVcJY5yZkxUjnq
+RfIowqF/0R6ImAUSeVe57sFlOoyxd4cJ4QIcMYwpwZhm3GjAoUEoB6ZQr6oKeHQN
+RstJHYK9HUEF6v0DUKonSZZna7I4R2BKqJCIMub9qbRcqkCmfCF33g9CgltkNA+R
+ko5TZpGyzIBPxxHNrVLAFeYUSUMFxRIEkkRKaQz3MlJ4upoERUIZjULiFdShkfRD
+3jyN+3xqaVB8KpCEMcIJlpYrrpgyUqPQ+TCoz0oLgxEJkUMgbOS0xSyiREWWSioV
+III5csHOvXmzeiM2y+T5mK7Zt9CoAGRpUks7TVLxomr1JEtMMuAPy1lWS4t5NNlI
+LUcPgS5d4ynpuGr9f+IrGlBP46Tqo/LI/6YmOgIYrsV1KMU5gnImkH/yPtDIh09D
+hFVIo1yqsS7UkocOhNTC8Uj4ExDOUGO8LUuQQT5a0CriBjCjVP0bY+hbZarPc/rw
+qiobzKc6+0lva6GprXDDiub8AhXablpz/Vq9cWTlVTo69ueKtlVnLz/bed87P7T8
+Nf/3trgl+Kl9em7+lu92Hvt9sXnD4sMHzi9tXnj8zk295f37D3xx8/ur+l8+t7Tv
+ypp9rz0/se6jmT0n3zwz+dkW/l7zzC+n+ybLC1+fKQwN7DpIw2Phve2Lz603XUPj
+O3oXWr/auHHMvbt14oPj5mRX0vNrd9y649AT0w+5e1qqj31Lt9rCZhUdX3v4mYG3
+u67cXTu38sKw3n55qvvWu9b1fCP/ePD7iy9Je6KzdGoOff7jpdlD608UTZvs/vnT
+Xad2TH54tPt1Mzt1dmzp/CtrN731amXDb+2NO/Z8KVb3bXtx4rZHWkavzkzTqQl8
++ugDW24fH9mePVq+2PMPpMl9WQ==
+=Jr5v
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pezhore
+
+==================================================================
