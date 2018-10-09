@@ -70,11 +70,14 @@ author:
 # Build settings
 markdown: kramdown
 #theme: minima
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.13.0"
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-include-cache
 
 paginate: 5
 paginate_path: /page:num/
